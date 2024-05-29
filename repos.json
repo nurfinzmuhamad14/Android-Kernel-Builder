@@ -1,9 +1,9 @@
 [  {
     "kernelSource": {
       "name": "RMX2195",
-      "repo": "https://github.com/realme-kernel-opensource/realmeC15_AndroidQ-kernel-source",
+      "repo": "https://github.com/nurfinzmuhamad14/RMX2195-Q",
       "branch": "master",
-      "device": "vendor/bengal-perf"
+      "device": "RMX2195"
     },
     "anykernelSource": {
         "repo": "https://github.com/1ndev-ui/AnyKernel3",
