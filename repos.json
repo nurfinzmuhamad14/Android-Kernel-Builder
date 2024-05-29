@@ -2,7 +2,7 @@
     "kernelSource": {
       "name": "RMX2195",
       "repo": "https://github.com/nurfinzmuhamad14/android_kernel_oneplus_sm4250",
-      "branch": "RMX2195-LOS20",
+      "branch": "test",
       "device": "RMX2195"
     },
     "anykernelSource": {
