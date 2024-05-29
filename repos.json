@@ -1,9 +1,9 @@
 [  {
     "kernelSource": {
       "name": "RMX2195",
-      "repo": "https://github.com/nurfinzmuhamad14/android_kernel_oneplus_sm4250",
-      "branch": "lineage-20",
-      "device": "RMX2195"
+      "repo": "https://github.com/realme-kernel-opensource/realmeC15_AndroidQ-kernel-source",
+      "branch": "master",
+      "device": "vendor/bengal-perf"
     },
     "anykernelSource": {
         "repo": "https://github.com/1ndev-ui/AnyKernel3",
