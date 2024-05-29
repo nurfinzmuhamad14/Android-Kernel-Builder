@@ -18,8 +18,8 @@
         "name": "gas"
       },
       {
-        "repo": "https://github.com/crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-6443078",
-        "branch": "10.0",
+        "repo": "https://github.com/kdrag0n/proton-clang",
+        "branch": "master",
         "name": "clang"
       }
     ],
