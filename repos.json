@@ -1,14 +1,9 @@
 [  {
     "kernelSource": {
       "name": "RMX2195",
-      "repo": "https://github.com/nurfinzmuhamad14/RMX2195-Q",
-      "branch": "CAF",
+      "repo": "https://github.com/nurfinzmuhamad14/realmeC15_AndroidQ-kernel-source.git",
+      "branch": "A10",
       "device": "RMX2195"
-    },
-    "anykernelSource": {
-        "repo": "https://github.com/1ndev-ui/AnyKernel3",
-        "branch": "dev",
-        "name": "AnyKernel3"
     },
     "withKernelSU": false,
     "toolchains": [
@@ -18,8 +13,8 @@
         "name": "gas"
       },
       {
-        "repo": "https://github.com/1ndev-ui/android_prebuilts_clang_host_linux-x86_clang-6443078",
-        "branch": "11.0.1",
+        "repo": "https://gitlab.com/ThankYouMario/android_prebuilts_clang-standalone/",
+        "branch": "11",
         "name": "clang"
       }
     ],
@@ -32,5 +27,5 @@
       "AR": "",
       "CC": "clang"
     }
-  }
+  },
 ]
