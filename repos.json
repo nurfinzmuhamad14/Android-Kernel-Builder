@@ -1,8 +1,8 @@
 [  {
     "kernelSource": {
       "name": "RMX2195",
-      "repo": "https://github.com/nurfinzmuhamad14/realmeC15_AndroidQ-kernel-source.git",
-      "branch": "A10",
+      "repo": "https://github.com/nurfinzmuhamad14/android_kernel_RMX2195.git",
+      "branch": "UdyneOS",
       "device": "RMX2195"
     },
     "withKernelSU": false,
