@@ -27,7 +27,7 @@
       "AR": "",
       "CC": "clang"
     },
-    "anyKernelsource": {
+    "anykernelSource": {
       "name": "UdyneOS",
       "use": true,
       "release": true,
