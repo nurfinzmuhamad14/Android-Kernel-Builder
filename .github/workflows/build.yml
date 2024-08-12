@@ -45,7 +45,8 @@ jobs:
       ANYKERNEL_NAME: ${{ matrix.repos.anykernelSource.name }}
       ANYKERNEL_SOURCE: ${{ matrix.repos.anykernelSource.repo }}
       ANYKERNEL_SOURCE_BRANCH: ${{ matrix.repos.anykernelSource.branch }}
-
+      ANYKERNEL_ON: ${{ matrix.repos.anykernelSource.use }}
+      
       DEFCONFIG_NAME: ${{ matrix.repos.kernelSource.device }}_defconfig
 
       withKernelSU: ${{ matrix.repos.withKernelSU }}
@@ -165,7 +166,7 @@ jobs:
           make ${args} CONFIG_DEBUG_SECTION_MISMATCH=y
 
       - name: "📦 Package kernel with AnyKernel3"
-        if: ${{ env.withKernelSU == 'true' }}
+        if: ${{ env.ANYKERNEL_ON == 'true' }}
         working-directory: ./${{ env.kernelDir }}
         run: |
           git clone --depth=1 $ANYKERNEL_SOURCE -b $ANYKERNEL_SOURCE_BRANCH $ANYKERNEL_NAME && rm -rf $ANYKERNEL_NAME/.git $ANYKERNEL_NAME/.github $ANYKERNEL_NAME/LICENSE $ANYKERNEL_NAME/README.md
@@ -186,7 +187,7 @@ jobs:
           fi
 
       - name: "🖤 Upload AnyKernel3 package"
-        if: ${{ env.withKernelSU == 'true' }}
+        if: ${{ env.ANYKERNEL_ON == 'true' }}
         uses: actions/upload-artifact@v4
         with:
           name: AnyKernel3-(${{ env.kernelDevice }}-${{ env.kernelName }}-${{ env.kernelBranch }})
