@@ -28,6 +28,7 @@
       "CC": "clang"
     },
     "anyKernelsource": {
+      "name": "UdyneOS",
       "use": true,
       "release": true,
       "repo": "https://github.com/nurfinzmuhamad14/AnyKernel3",
