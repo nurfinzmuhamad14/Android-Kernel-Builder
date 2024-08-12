@@ -28,8 +28,8 @@
       "CC": "clang"
     },
     "AnyKernel3": {
-      "use": true,
-      "release": true,
+      "use": false,
+      "release": false,
       "repo": "https://github.com/Akitlove/AnyKernel3",
       "branch": "master"
     }
