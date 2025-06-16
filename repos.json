@@ -1,13 +1,13 @@
 [  {
     "kernelSource": {
-      "name": "4.19.191_mt6765",
-      "repo": "https://github.com/1ndev-ui/Kernel-MT6765-4.19.191-Generic",
-      "branch": "4.19.191_mt6765_dev",
-      "device": "k65v1_64_bsp"
+      "name": "4.19.152_RMX2195",
+      "repo": "https://github.com/nurfinzmuhamad14/kernel_realme_sm4250",
+      "branch": "stable",
+      "device": "RMX2195"
     },
     "anykernelSource": {
-        "repo": "https://github.com/1ndev-ui/AnyKernel3",
-        "branch": "dev",
+        "repo": "https://github.com/insetion/AnyKernel3",
+        "branch": "RMX2195",
         "name": "AnyKernel3"
     },
     "withKernelSU": false,
@@ -18,7 +18,7 @@
         "name": "gas"
       },
       {
-        "repo": "https://github.com/1ndev-ui/android_prebuilts_clang_host_linux-x86_clang-6443078",
+        "repo": "https://github.com/techyminati/android_prebuilts_clang_host_linux-x86_clang-6443078",
         "branch": "11.0.1",
         "name": "clang"
       }
