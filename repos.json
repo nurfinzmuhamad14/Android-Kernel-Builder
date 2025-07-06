@@ -1,11 +1,11 @@
 [  {
     "kernelSource": {
       "name": "Lineage",
-      "repo": "https://github.com/nurfinzmuhamad14/android_kernel_realme_RMX2195.git",
-      "branch": "LineageOS",
+      "repo": "https://github.com/UdyneO2/kernel_realme_RMX2195",
+      "branch": "ksun",
       "device": "RMX2195"
     },
-    "withKernelSU": false,
+    "withKernelSU": true,
     "toolchains": [
       {
         "repo": "https://android.googlesource.com/platform/prebuilts/gas/linux-x86",
